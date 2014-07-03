@@ -144,6 +144,68 @@ alert("Please Update Your IE \n请升级您的IE浏览器");
     <header>
       
         <div class="icon depth"></div>
+        <time class="depth" datetime="2014-07-03T09:02:46.000Z"><a href="#">7月 3 2014</a></time>
+      
+      
+  
+    <h1 class="title depth"><a href="/2014/07/03/NET繁体到简体字符转换/">.NET繁体到简体字符转换</a></h1>
+  
+
+    </header>
+    <div class="entry depth">
+      
+        <p>.NET下的从繁体中文转换成简体中文有个非常简便的方法就是采用VBString转换。代码如下：</p>
+<figure class="highlight csharp"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="code"><pre><span class="keyword">void</span> Main()
+{	
+	<span class="keyword">var</span> word = <span class="string">"中華人民共和國"</span>;	
+	 <span class="keyword">string</span> simplified = Microsoft.VisualBasic.Strings
+	 .StrConv(word, Microsoft.VisualBasic.VbStrConv.SimplifiedChinese, <span class="number">0</span>);	 
+	 simplified.Dump(word);
+}
+</pre></td></tr></table></figure>
+
+<p>So， Easy。</p>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+  
+    <article class="post">
+  
+    <div class="gallery">
+  <div class="photoset">
+    
+      <img src="">
+    
+  </div>
+  <div class="control">
+    <div class="prev"></div>
+    <div class="next"></div>
+  </div>
+</div>
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon depth"></div>
         <time class="depth" datetime="2014-06-26T08:16:24.000Z"><a href="#">6月 26 2014</a></time>
       
       
@@ -247,18 +309,6 @@ $("a").click(function () {
 });
 </script>
 
-
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-46393541-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
 
 
 <!--[if lt IE 9]><script src="/js/excanvas.js"></script><![endif]-->
